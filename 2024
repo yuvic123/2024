@@ -1,8 +1,0 @@
-local replicated = game:GetService("ReplicatedStorage")
-local chrismas = replicated:FindFirstChild("Christmas_2024")
-local snowProps = chrismas:FindFirstChild("SnowProps")
-
-if snowProps then
-    local clone = snowProps:Clone()
-    clone.Parent = workspace
-end
