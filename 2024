@@ -1,0 +1,8 @@
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local ChristmasFolder = ReplicatedStorage:FindFirstChild("Christmas_2024")
+local snowProps = ChristmasFolder:FindFirstChild("SnowProps")
+
+if snowProps then
+    local clone = snowProps:Clone()
+    clone.Parent = workspace
+end
